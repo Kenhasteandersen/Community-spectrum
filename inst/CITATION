@@ -1,0 +1,13 @@
+bibentry("Article",
+         author = c(
+           person("Ken Haste", "Andersen"),
+           person("Nis Sand", "Jacobsen"),
+           person("K. D.", "Farnsworth")
+         ),
+         title = "The theoretical foundations for size spectrum models of fish communities",
+         year = 2016,
+         doi = "10.1139/cjfas-2015-0230",
+         pages = c(575,588),
+         journal = "Canadian Journal of Fisheries and Aquatic Sciences",
+         volume = 73,
+         number = 4)

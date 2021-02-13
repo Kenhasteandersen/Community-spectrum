@@ -1,0 +1,15 @@
+Package: cspectrum
+Title: Community size spectrum simulator
+Version: 0.0.4
+Date: 27 March 2017
+Authors@R: c(person("Nis", "Sand Jacobsen", email = "nisjac@uw.edu", role = c("aut")),
+             person("Ken H.", "Andersen", email = "kha@aqua.dtu.dk", role = c("aut", "cre")),
+             person("Alexandros", "Kokkalis", email = "alko@aqua.dtu.dk", role = c("ctb")))
+Description: Simulation of the effect of fishing on a fish community.
+Depends:
+    R (>= 3.0.0), shiny
+License: What license is it under?
+Encoding: UTF-8
+LazyData: false
+Imports: shiny
+RoxygenNote: 6.0.1

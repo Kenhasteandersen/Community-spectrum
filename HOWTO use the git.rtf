@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf820
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red53\green53\blue53;\red220\green161\blue13;\red0\green0\blue0;
+\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c27059\c27059\c27059;\cssrgb\c89412\c68627\c3922;\csgray\c0;
+\csgray\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11640\viewh11720\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b\fs24 \cf2 HOWTO use the CSpectrum git repository.
+\b0 \
+\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf2 \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf2 Get the entire repository:\
+	git clone https://repos.gbar.dtu.dk/git/alko/cspectrum.git\
+\
+Update from git:\
+	Cd spectrum\
+	Git pull\
+\
+Update to git:\
+	Git commit -am \'93message\'94   # commits all changes\
+	Git push\
+	Username: ken\
+	Password: spectrum\
+\
+Install package into R from git (with \'93devtools\'94 installed):\
+	devtools::install_git("{\field{\*\fldinst{HYPERLINK "https://repos.gbar.dtu.dk/git/alko/cspectrum.git"}}{\fldrslt \cf3 \ul \ulc3 https://repos.gbar.dtu.dk/git/alko/cspectrum.git}}")\
+\
+Build package from RStudio:\
+	Update version number & date in \'93DESCRIPTION\'94 file.\
+	In Rstudio use Build -> More -> Build source\
+ \
+Build from terminal, while standing in directory above \'93cspectrum\'94:\
+	R CMD build cspectrum\
+\
+\
+Raw install in R:\
+	install.packages(\'93devtools\'94)\
+	install.packages(\'93shiny\'94)\
+	devtools::install_git("{\field{\*\fldinst{HYPERLINK "https://repos.gbar.dtu.dk/git/alko/cspectrum.git"}}{\fldrslt \cf3 \ul \ulc3 https://repos.gbar.dtu.dk/git/alko/cspectrum.git}}")\
+	library(cspectrum)\
+	runCommunitySpectrum()\
+\
+Update server:\
+	log in as user shiny\
+	start R\
+	devtools::install_git("{\field{\*\fldinst{HYPERLINK "https://repos.gbar.dtu.dk/git/alko/cspectrum.git"}}{\fldrslt \cf3 \ul \ulc3 https://repos.gbar.dtu.dk/git/alko/cspectrum.git}}")\
+	perhaps restart server: 
+\f1\fs22 \cf4 \cb5 \CocoaLigature0 sudo systemctl restart shiny-server\
+}
