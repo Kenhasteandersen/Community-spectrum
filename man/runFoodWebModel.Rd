@@ -4,13 +4,12 @@
 \alias{runFoodWebModel}
 \title{Run the food web size spectrum model manually}
 \usage{
-runFoodWebModel(Parameterset = "TraitBased", F0 = c(0.3, 0.3, 0.3),
-  S = NA)
+runFoodWebModel(Parameterset = "TraitBased", F0 = c(0.3, 0.3, 0.3), S = NA)
 }
 \arguments{
 \item{Parameterset}{Text string with the name of the parameter set to use}
 
-\item{F0}{Array with fishing mortality on each fleet}
+\item{F0}{Array with fishing mortality on each fleet, or an array of fishig mortality on each species.}
 
 \item{S}{Output from a previous simulation to use as initial conditions}
 }

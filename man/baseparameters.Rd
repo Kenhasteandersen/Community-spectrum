@@ -4,8 +4,11 @@
 \alias{baseparameters}
 \title{Get a standard parameter set}
 \usage{
-baseparameters(wInf = 10^seq(log10(4), log10(30000), length.out = 18),
-  kappa = 1.3, h = 20)
+baseparameters(
+  wInf = 10^seq(log10(4), log10(30000), length.out = 18),
+  kappa = 1.3,
+  h = 20
+)
 }
 \arguments{
 \item{wInf}{Array of asymptotic sizes to use}

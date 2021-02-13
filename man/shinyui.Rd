@@ -4,7 +4,9 @@
 \name{shinyui}
 \alias{shinyui}
 \title{Shiny ui}
-\format{An object of class \code{shiny.tag.list} (inherits from \code{list}) of length 3.}
+\format{
+An object of class \code{shiny.tag.list} (inherits from \code{list}) of length 3.
+}
 \usage{
 shinyui
 }

@@ -4,9 +4,13 @@
 \alias{runTraitBasedModel}
 \title{Run the community spectrum simulator manually}
 \usage{
-runTraitBasedModel(nSpecies = 18, F0 = 0.3 + 0 * (1:nSpecies), S = NA,
-  param = baseparameters(10^seq(log10(4), log10(30000), length.out =
-  nSpecies), kappa = 1.3, h = 20))
+runTraitBasedModel(
+  nSpecies = 18,
+  F0 = 0.3 + 0 * (1:nSpecies),
+  S = NA,
+  param = baseparameters(10^seq(log10(4), log10(30000), length.out = nSpecies), kappa =
+    1.3, h = 20)
+)
 }
 \arguments{
 \item{nSpecies}{Number of asymptotic size groups ("species").  Only relevant for trait-based model.}
