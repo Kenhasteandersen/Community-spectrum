@@ -389,7 +389,7 @@ shinyui <- fluidPage(
     p('The model can be downloaded and run from git:'),
     p('install.packages(\'devtools\')'),
     p('install.packages(\'shiny\')'),
-    p('devtools::install_git(\'https://repos.gbar.dtu.dk/git/alko/cspectrum.git\') '),
+    p('devtools::install_git(\'https://github.com/Kenhasteandersen/Community-spectrum.git\') '),
     p('library(cspectrum)'),
     p('runCommunitySpectrum()')
     #,
